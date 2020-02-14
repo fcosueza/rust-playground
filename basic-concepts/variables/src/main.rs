@@ -10,7 +10,7 @@ fn main() {
     x = x + y;
     println!("The value of x: {}", x);
 
-    // Variable shadowing (not the behavior as mut)
+    // Variable shadowing (not the same behavior as mut)
     let y = y * 2;
     let y = y / 3;
 
