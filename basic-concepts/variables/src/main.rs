@@ -1,14 +1,16 @@
 fn main() {
-    // Mutability
+    // Variable declaration (inmutable by deafult)
+    let a = 0;
+    println!("The value of a is: {}", a);
+
+    // Declare mutable variable (using mut)
     let mut x = 5;
+    let y = 6;
 
+    x = x + y;
     println!("The value of x: {}", x);
 
-    x = 6;
-    println!("The value of x: {}", x);
-
-    // Shadowing
-    let y = 7;
+    // Variable shadowing (not the behavior as mut)
     let y = y * 2;
     let y = y / 3;
 

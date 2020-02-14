@@ -1,2 +1,2 @@
 # Variables
-Basic variables use in Rust
+Basic variables use in Rust.
