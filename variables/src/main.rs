@@ -1,6 +1,7 @@
 fn main() {
 
-    //Mutability
+    // Mutability
+
     let mut x = 5;
     println!("The value of x is: {}", x);
 
@@ -8,6 +9,7 @@ fn main() {
     println!("The value of x is: {}", x);
 
     // Shadowing
+
     let a = 6;
 
     let a = a + 1;
