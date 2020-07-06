@@ -14,14 +14,14 @@ fn main() {
         Err(_) => 1,
     };
 
-    println!("\nIntroduce the degrees (0 if value is invalid): ");
+    println!("\nIntroduce the degrees (default: 32): ");
     let mut degrees = String::new();
 
     io::stdin().read_line(&mut degrees).expect("Failed to read");
 
     let degrees: f32 = match degrees.trim().parse() {
         Ok(num) => num,
-        Err(_) => 0.0,
+        Err(_) => 32.0,
     };
 
     if option == 1 {
