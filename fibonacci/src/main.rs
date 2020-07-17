@@ -7,7 +7,7 @@ fn main() {
 
     io::stdin().read_line(&mut nth).expect("Failed to read");
 
-    let nth: u32 = match nth.trim().parse() {
+    let nth: u8 = match nth.trim().parse() {
         Ok(nth) => {
             if nth > 185 {
                 185
