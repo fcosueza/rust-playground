@@ -20,7 +20,7 @@ fn main() {
 
     let mut n: u128 = 1;
 
-    if nth != 1 && nth != 2 && nth > 0 && nth <= 185 {
+    if nth != 1 && nth != 2 {
         let mut n_1: u128 = 1;
         let mut n_2: u128 = 1;
 
