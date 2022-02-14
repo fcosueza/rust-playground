@@ -1,8 +1,8 @@
 [package]
-name = "guessing-game"
-version = "0.1.0"
 authors = ["Francisco Sueza <fcosueza@disroot.org>"]
 edition = "2018"
+name = "guessing-game"
+version = "0.1.0"
 
 [dependencies]
-rand = "0.5.5"
+rand = "0.8.3"
