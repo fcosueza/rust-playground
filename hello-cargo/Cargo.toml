@@ -1,7 +1,7 @@
 [package]
+authors = ["Francisco Sueza <fcosueza@disroot.org>"]
+edition = "2021"
 name = "hello-cargo"
 version = "0.1.0"
-authors = ["Francisco Sueza <fcosueza@disroot.org>"]
-edition = "2018"
 
 [dependencies]
