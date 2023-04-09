@@ -7,7 +7,7 @@ fn main() {
 
     let lower_bound: u32 = 1;
     let upper_bound: u32 = 100;
-    let secret_number: u32 = rand::thread_rng().gen_range(lower_bound..(upper_bound + 1));
+    let secret_number: u32 = rand::thread_rng().gen_range(lower_bound..(upper_bound));
 
     loop {
         println!("Please, input your guess (between 1 and 100):");
