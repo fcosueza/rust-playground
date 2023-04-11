@@ -19,7 +19,7 @@ fn main() {
         let guess: u32 = match guess.trim().parse() {
             Ok(num) => num,
             Err(_) => {
-                print!("You introduce a non numerical value, please introduce a integer\n");
+                println!("You introduce a non numerical value, please introduce a integer.\n");
                 continue;
             }
         };
