@@ -1,8 +1,8 @@
 fn main() {
     // Loop
-    let mut counter = 0;
+    let mut counter: u32 = 0;
 
-    let result = loop {
+    let result: u32 = loop {
         counter += 1;
 
         if counter == 10 {
@@ -12,8 +12,33 @@ fn main() {
 
     println!("The result is {}", result);
 
+    // Labelled Loop
+
+    let mut count: u32 = 0;
+
+    'counting_up: loop {
+        println!("counter = {count}");
+        let mut remaining: u32 = 10;
+
+        loop {
+            println!("remaining = {remaining}");
+
+            if remaining == 9 {
+                break;
+            } else if count == 2 {
+                break 'counting_up;
+            }
+
+            remaining -= 1;
+        }
+
+        count += 1;
+    }
+
+    println!("End Counter = {count}");
+
     // While
-    let mut number = 3;
+    let mut number: u32 = 3;
 
     while number != 0 {
         println!("{}", number);
